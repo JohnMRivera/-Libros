@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('registro_alumnos');
+});
+
+Route::get('/reg_bib', function(){
+    return view('registro_bibliotecarios');
 });
